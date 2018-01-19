@@ -6,5 +6,6 @@ export default class Data {
         return res.movies
       })
       .then(cb)
+      .catch(err => console.log(err))
   }
 }

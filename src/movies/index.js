@@ -4,7 +4,7 @@ import { Grid } from './components/grid/grid.js'
 import Data from './components/data/movies-data.js'
 
 /* eslint-disable */
-const URL = 'https://api.myjson.com/bins/15mdhx'
+const URL = 'https://api.myjson.com/bins/13nux1'
 
 Data.get(URL, data => {
   const container = '.movies-container'
