@@ -1,5 +1,6 @@
 export default class Data {
   static get (url, cb) {
+    /* eslint-disable */
     fetch (url)
       .then(res => res.json())
       .then(res => {
